@@ -1,0 +1,2 @@
+
+ef478d31318c11afeb0c2aec105e67f7fe8d768b	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/wildcard","integrity":null,"time":1773817639691,"size":"262","metadata":{"time":1773817639691,"url":"http://registry.npmmirror.com/wildcard","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:21 GMT","location":"https://registry.npmmirror.com/wildcard"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+d304541f23967cc7164f796b743507dd5013721c	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/es6-iterator","integrity":null,"time":1773817644405,"size":"262","metadata":{"time":1773817644404,"url":"http://registry.npmmirror.com/es6-iterator","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:25 GMT","location":"https://registry.npmmirror.com/es6-iterator"},"options":{"compress":true},"status":301}}

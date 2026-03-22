@@ -1,0 +1,2 @@
+
+3e2bc0b153f4cf29dd6aae60f38ecaec1117df4b	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/destroy","integrity":null,"time":1773971814896,"size":"262","metadata":{"time":1773971814896,"url":"http://registry.npmmirror.com/destroy","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:55 GMT","location":"https://registry.npmmirror.com/destroy"},"options":{"compress":true},"status":301}}

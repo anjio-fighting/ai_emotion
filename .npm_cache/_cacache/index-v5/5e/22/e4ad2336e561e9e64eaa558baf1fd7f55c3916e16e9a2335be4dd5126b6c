@@ -1,0 +1,2 @@
+
+ccb01651fdcde23e8f19b9d7ae9480e49065de09	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/prismjs","integrity":null,"time":1773817633367,"size":"262","metadata":{"time":1773817633367,"url":"http://registry.npmmirror.com/prismjs","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:14 GMT","location":"https://registry.npmmirror.com/prismjs"},"options":{"compress":true},"status":301}}

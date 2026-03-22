@@ -1,0 +1,2 @@
+
+b7a154ff04ea5da1fc7842de2bf1e9689f6dbd68	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@uppy%2fcompanion-client","integrity":null,"time":1773817633344,"size":"262","metadata":{"time":1773817633344,"url":"http://registry.npmmirror.com/@uppy%2fcompanion-client","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:14 GMT","location":"https://registry.npmmirror.com/@uppy%2fcompanion-client"},"options":{"compress":true},"status":301}}

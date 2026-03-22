@@ -1,0 +1,2 @@
+
+206ca2b0411e8333abeb42e4941089df4d0f089a	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/toidentifier","integrity":null,"time":1773971818594,"size":"262","metadata":{"time":1773971818594,"url":"http://registry.npmmirror.com/toidentifier","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:59 GMT","location":"https://registry.npmmirror.com/toidentifier"},"options":{"compress":true},"status":301}}

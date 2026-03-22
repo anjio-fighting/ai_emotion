@@ -1,0 +1,2 @@
+
+d7fee72d5ba98a4aa336143c843540fdb83cad92	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/namespace-emitter","integrity":null,"time":1773817633343,"size":"262","metadata":{"time":1773817633343,"url":"http://registry.npmmirror.com/namespace-emitter","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:14 GMT","location":"https://registry.npmmirror.com/namespace-emitter"},"options":{"compress":true},"status":301}}

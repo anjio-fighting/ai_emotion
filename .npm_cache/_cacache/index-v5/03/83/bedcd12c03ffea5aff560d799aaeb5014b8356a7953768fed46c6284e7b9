@@ -1,0 +1,2 @@
+
+d9ea6bbea92380cd76d2527f8a7a44a43a8ad9e0	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/delayed-stream","integrity":null,"time":1773647893614,"size":"262","metadata":{"time":1773647893614,"url":"http://registry.npmmirror.com/delayed-stream","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Mar 2026 07:58:15 GMT","location":"https://registry.npmmirror.com/delayed-stream"},"options":{"compress":true},"status":301}}

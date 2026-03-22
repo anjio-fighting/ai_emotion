@@ -1,0 +1,2 @@
+
+ba3e356ffd36fb2d484d7d77b26558ac89bf7dd5	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/is-glob","integrity":null,"time":1773384234752,"size":"262","metadata":{"time":1773384234752,"url":"http://registry.npmmirror.com/is-glob","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 06:43:54 GMT","location":"https://registry.npmmirror.com/is-glob"},"options":{"compress":true},"status":301}}

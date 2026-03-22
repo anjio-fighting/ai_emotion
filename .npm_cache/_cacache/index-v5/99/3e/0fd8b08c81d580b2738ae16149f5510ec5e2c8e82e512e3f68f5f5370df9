@@ -1,0 +1,2 @@
+
+08b9a31b484a244ab92a1d5fd646c88f36a92d43	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/is-plain-object","integrity":null,"time":1773817633368,"size":"262","metadata":{"time":1773817633367,"url":"http://registry.npmmirror.com/is-plain-object","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:14 GMT","location":"https://registry.npmmirror.com/is-plain-object"},"options":{"compress":true},"status":301}}

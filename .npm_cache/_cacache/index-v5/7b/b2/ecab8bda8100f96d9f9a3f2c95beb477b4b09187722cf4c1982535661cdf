@@ -1,0 +1,2 @@
+
+3167969e1e7233d112bf10819504ef5f80c66fe4	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/rfdc","integrity":null,"time":1773537045320,"size":"262","metadata":{"time":1773537045320,"url":"http://registry.npmmirror.com/rfdc","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Sun, 15 Mar 2026 01:10:44 GMT","location":"https://registry.npmmirror.com/rfdc"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+614f8a651be06c31bb2a2533e937ac55fc395fe5	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/chokidar","integrity":null,"time":1773384232664,"size":"262","metadata":{"time":1773384232664,"url":"http://registry.npmmirror.com/chokidar","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 06:43:52 GMT","location":"https://registry.npmmirror.com/chokidar"},"options":{"compress":true},"status":301}}

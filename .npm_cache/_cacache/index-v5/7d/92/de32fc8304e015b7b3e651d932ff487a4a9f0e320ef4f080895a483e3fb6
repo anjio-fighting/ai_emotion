@@ -1,0 +1,2 @@
+
+b5cd08fd24ebf21369061fcac044f07584a519e2	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@parcel%2fwatcher","integrity":null,"time":1773384232911,"size":"262","metadata":{"time":1773384232911,"url":"http://registry.npmmirror.com/@parcel%2fwatcher","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 06:43:52 GMT","location":"https://registry.npmmirror.com/@parcel%2fwatcher"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+b9bf3f71335f3236145cff51bdac6356c4b09b1e	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/media-typer","integrity":null,"time":1773971818841,"size":"262","metadata":{"time":1773971818841,"url":"http://registry.npmmirror.com/media-typer","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:59 GMT","location":"https://registry.npmmirror.com/media-typer"},"options":{"compress":true},"status":301}}

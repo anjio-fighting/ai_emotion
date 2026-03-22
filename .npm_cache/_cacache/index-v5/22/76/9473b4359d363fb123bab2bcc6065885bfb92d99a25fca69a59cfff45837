@@ -1,0 +1,2 @@
+
+b5f80655e1974d0834c2655233db9e9318383df8	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/safe-regex-test","integrity":null,"time":1773971818822,"size":"262","metadata":{"time":1773971818822,"url":"http://registry.npmmirror.com/safe-regex-test","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:59 GMT","location":"https://registry.npmmirror.com/safe-regex-test"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+fa64d89b1534293f725f1c4c78873f91315774fe	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/is-what","integrity":null,"time":1773537045907,"size":"262","metadata":{"time":1773537045907,"url":"http://registry.npmmirror.com/is-what","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Sun, 15 Mar 2026 01:10:45 GMT","location":"https://registry.npmmirror.com/is-what"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+9a331d4d10c970e74383c27e326e69a3b88372cd	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/slate-history","integrity":null,"time":1773817633606,"size":"262","metadata":{"time":1773817633606,"url":"http://registry.npmmirror.com/slate-history","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:14 GMT","location":"https://registry.npmmirror.com/slate-history"},"options":{"compress":true},"status":301}}

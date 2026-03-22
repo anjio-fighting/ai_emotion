@@ -1,0 +1,2 @@
+
+2be5710d0abd488ff1154273bf0298d4623e879f	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/lodash.camelcase","integrity":null,"time":1773817628450,"size":"262","metadata":{"time":1773817628450,"url":"http://registry.npmmirror.com/lodash.camelcase","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:09 GMT","location":"https://registry.npmmirror.com/lodash.camelcase"},"options":{"compress":true},"status":301}}

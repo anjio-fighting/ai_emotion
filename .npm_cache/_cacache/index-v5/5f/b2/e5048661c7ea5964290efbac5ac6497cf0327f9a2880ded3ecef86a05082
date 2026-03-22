@@ -1,0 +1,2 @@
+
+ab6b44332909af754978644632d8e3dced06442b	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/next-tick","integrity":null,"time":1773817644411,"size":"262","metadata":{"time":1773817644411,"url":"http://registry.npmmirror.com/next-tick","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:25 GMT","location":"https://registry.npmmirror.com/next-tick"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+f26b56b3c0f4e1bbe4eb36b08b430667dab9d920	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/pnpm","integrity":null,"time":1774168319597,"size":"262","metadata":{"time":1774168319596,"url":"http://registry.npmmirror.com/pnpm","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Sun, 22 Mar 2026 08:31:59 GMT","location":"https://registry.npmmirror.com/pnpm"},"options":{"compress":true},"status":301}}

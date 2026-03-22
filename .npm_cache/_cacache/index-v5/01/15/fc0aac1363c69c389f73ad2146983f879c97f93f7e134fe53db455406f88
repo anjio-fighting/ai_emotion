@@ -1,0 +1,2 @@
+
+d04110f2f1948faa58b68a807f15f84a1d8772ef	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-musl","integrity":null,"time":1773384235324,"size":"262","metadata":{"time":1773384235324,"url":"http://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-musl","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 06:43:54 GMT","location":"https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-musl"},"options":{"compress":true},"status":301}}

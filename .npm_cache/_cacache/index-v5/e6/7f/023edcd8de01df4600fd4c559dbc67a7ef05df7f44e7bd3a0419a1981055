@@ -1,0 +1,2 @@
+
+9fee214f05f4a459a5acce4f44bea898a4feb0aa	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/koa","integrity":null,"time":1773971795770,"size":"262","metadata":{"time":1773971795769,"url":"http://registry.npmmirror.com/koa","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:36 GMT","location":"https://registry.npmmirror.com/koa"},"options":{"compress":true},"status":301}}

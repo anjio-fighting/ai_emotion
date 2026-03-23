@@ -57,7 +57,7 @@
                   size="small"
                   @click="handleDeleteSession(session.id)"
                 >
-                  <el-icon> <Delete /> </el-icon
+                  <el-icon> <DeleteFilled /> </el-icon
                 ></el-button>
               </div>
             </div>
@@ -71,9 +71,10 @@
           <div class="chat-avatar">
             <el-image :src="iconurl1" style="width: 30px; height: 30px" />
           </div>
-          <div class="chat-info"></div>
-          <h2>宁渡AI助手</h2>
-          <p>您的贴心AI心理健康助手</p>
+          <div class="chat-info">
+            <h2>宁渡AI助手</h2>
+            <p>您的贴心AI心理健康助手</p>
+          </div>
         </div>
         <el-button circle @click="createNewFrontendSession" title="新建会话">
           <el-icon>
@@ -161,9 +162,9 @@
             clearable
           />
         </div>
-        <el-button class="send-btn" type="primary" @click="sendMessage"
-          ><el-icon><Promotion /></el-icon
-        ></el-button>
+        <el-button class="send-btn" type="primary" @click="sendMessage">
+          <el-icon><Promotion /></el-icon>
+        </el-button>
       </div>
     </div>
   </div>
@@ -180,12 +181,39 @@ import {
 import { ElMessage } from "element-plus";
 import MarkdownRenderer from "@/components/MarkdownRenderer.vue";
 
+const iconurl = new URL("@/assets/images/robot-fill.png", import.meta.url).href;
+const iconurl1 = new URL("@/assets/images/like.png", import.meta.url).href;
+const iconurl2 = new URL("@/assets/images/users.png", import.meta.url).href;
+
+// 新建会话
+const createNewFrontendSession = () => {
+  // 新建一个会话对象
+  const newSession = {
+    sessionId: `temp_${Date.now()}`, //时间戳创建ID
+    status: "TEMP",
+    sessionTitle: "新对话",
+  };
+  currentSession.value = newSession;
+};
+
+const sessionList = ref([]);
+const currentSession = ref(null);
+
 //定义对话消息
 const message = ref([]);
 //定义用户输入消息
 const userMessage = ref("");
 //定义AI助手是否正在输入
 const isAiTyping = ref(false);
+
+//定义处理键盘事件
+const handleKeyDown = (e) => {
+  //!e.shiftKey 防止按下shift键时发送消息
+  if (e.key === "Enter" && !e.shiftKey) {
+    e.preventDefault(); // 阻止默认换行行为
+    sendMessage();
+  }
+};
 
 //用户发送消息
 const sendMessage = () => {
@@ -211,13 +239,14 @@ const startNewSession = (message) => {
     initialMessage: message,
   };
   if (currentSession.value.sessionTitle === "新对话") {
-    sessionParams.sessionTitle = `宁渡AI助手-${new Date().toLocaleString()}`;
+    sessionParams.sessionTitle = `宁渡AI助手 - ${new Date().toLocaleString()}`;
   } else {
     //如果历史会话记录
     sessionParams.sessionTitle = currentSession.value.sessionTitle;
   }
   //调用接口创建新会话
   startSession(sessionParams).then((res) => {
+    console.log(res);
     //将后端返回的数据转为前端会话格式
     const sessionData = {
       sessionId: res.sessionId,
@@ -232,36 +261,11 @@ const startNewSession = (message) => {
       //否则创建新会话
       currentSession.value = sessionData;
     }
-    //获取会话列表
+    //更新会话列表
     getSessionPage();
   });
 };
 
-const handleKeyDown = (e) => {
-  //!e.shiftKey 防止按下shift键时发送消息
-  if (e.key === "Enter" && !e.shiftKey) {
-    e.preventDefault(); // 阻止默认换行行为
-    sendMessage();
-  }
-};
-
-const iconurl = new URL("@/assets/images/robot-fill.png", import.meta.url).href;
-const iconurl1 = new URL("@/assets/images/like.png", import.meta.url).href;
-const iconurl2 = new URL("@/assets/images/users.png", import.meta.url).href;
-
-const currentSession = ref(null);
-// 新建会话
-const createNewFrontendSession = () => {
-  // 新建一个会话对象
-  const newSession = {
-    sessionId: `temp_${Date.now()}`, //时间戳创建ID
-    status: "TEMP",
-    sessionTitle: "新对话",
-  };
-  currentSession.value = newSession;
-};
-
-const sessionList = ref([]);
 const getSessionPage = () => {
   getSessionList({
     pageNum: 1,
@@ -273,10 +277,14 @@ const getSessionPage = () => {
 
 //获取会话数据
 const handleSessionClick = (session) => {
-  getSessionDetail(session.sessionId).then((res) => {
+  console.log(session, "点击会话");
+  //点击会话时，获取会话消息详情
+  getSessionDetail(session.id).then((res) => {
+    console.log(res, "会话消息详情");
     message.value = res;
   });
 };
+
 const handleDeleteSession = (sessionId) => {
   deleteSession(sessionId).then(() => {
     ElMessage.success("删除成功");

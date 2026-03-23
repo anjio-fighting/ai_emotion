@@ -16,7 +16,7 @@
               :placeholder="item.placeholder"
             >
               <template v-if="item.comp === 'select'">
-                <el-option label="全部" value="“”" />
+                <el-option label="全部" value="" />
                 <el-option
                   v-for="opt in item.options"
                   :key="opt.value"
@@ -58,8 +58,8 @@ const formItemAttrs = computed(() => {
 // 映射函数：将配置中的字符串（如 'input'）转换为 Element Plus 组件的真实标签名（如 'el-input'）
 const isComp = (comp) => {
   return {
-    input: "el-input",
-    select: "el-select",
+    input: "elInput",
+    select: "elSelect",
   }[comp];
 };
 

@@ -61,27 +61,29 @@
         :http-request="handleUploadRequest"实现自定义的上传逻辑
         accept="image/*"用于限制用户可以选择的文件类型。
         show-file-list="false" 不显示上传文件列表 -->
-        <el-upload
-          class="avatar-uploader"
-          action="#"
-          :before-upload="beforeUpload"
-          :http-request="handleUploadRequest"
-          accept="image/*"
-          :show-file-list="false"
-        >
-          <div v-if="!imgurl" class="cover-placeholder">
-            <p>点击上传封面图片</p>
-          </div>
-          <img v-else :src="imgurl" class="cover-image" alt="封面图片" />
-        </el-upload>
-        <div v-if="imgurl" class="cover-remove">
-          <el-button
-            style="display: block"
-            type="danger"
-            size="small"
-            @click="handleRemove"
-            >移除封面</el-button
+        <div class="cover-upload">
+          <el-upload
+            class="avatar-uploader"
+            action="#"
+            :before-upload="beforeUpload"
+            :http-request="handleUploadRequest"
+            accept="image/*"
+            :show-file-list="false"
           >
+            <div v-if="!imgurl" class="cover-placeholder">
+              <p>点击上传封面图片</p>
+            </div>
+            <img v-else :src="imgurl" class="cover-image" alt="封面图片" />
+          </el-upload>
+          <div v-if="imgurl" class="cover-remove">
+            <el-button
+              style="display: block"
+              type="danger"
+              size="small"
+              @click="handleRemove"
+              >移除封面</el-button
+            >
+          </div>
         </div>
       </el-form-item>
       <el-form-item label="文章内容" prop="content">
@@ -320,15 +322,5 @@ const handleSubmit = async () => {
   width: 200px;
   height: 120px;
   display: block;
-}
-.cover-remove {
-  margin-top: 8px;
-  display: flex;
-  justify-content: center;
-  .el-button {
-    width: 120px;
-    font-size: 12px;
-    border-radius: 4px;
-  }
 }
 </style>

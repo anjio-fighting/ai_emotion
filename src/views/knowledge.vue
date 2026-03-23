@@ -106,9 +106,9 @@ const formItem = [
     label: "状态",
     placeholder: "请选择状态",
     options: [
-      { label: "下线", value: "1" },
       { label: "草稿", value: "0" },
-      { label: "发布", value: "2" },
+      { label: "已发布", value: "1" },
+      { label: "已下线", value: "2" },
     ],
   },
 ];
@@ -220,7 +220,7 @@ onMounted(async () => {
   });
   // 设置分类选项
   formItem[1].options = categories.value;
-
+  console.log(formItem[1].options);
   handleSearch();
 });
 </script>

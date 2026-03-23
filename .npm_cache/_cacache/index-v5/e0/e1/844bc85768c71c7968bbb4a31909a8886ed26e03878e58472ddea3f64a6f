@@ -1,2 +1,0 @@
-
-276ccaaafb8a3fd70e72779d01709952bf3c7545	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@ctrl%2ftinycolor","integrity":null,"time":1773370983505,"size":"262","metadata":{"time":1773370983505,"url":"http://registry.npmmirror.com/@ctrl%2ftinycolor","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 03:03:03 GMT","location":"https://registry.npmmirror.com/@ctrl%2ftinycolor"},"options":{"compress":true},"status":301}}

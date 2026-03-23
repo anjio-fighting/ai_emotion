@@ -1,2 +1,0 @@
-
-ba4753685783ca38f0e10d9ebada39668e889f11	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/dom7","integrity":null,"time":1773817628689,"size":"262","metadata":{"time":1773817628689,"url":"http://registry.npmmirror.com/dom7","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:10 GMT","location":"https://registry.npmmirror.com/dom7"},"options":{"compress":true},"status":301}}

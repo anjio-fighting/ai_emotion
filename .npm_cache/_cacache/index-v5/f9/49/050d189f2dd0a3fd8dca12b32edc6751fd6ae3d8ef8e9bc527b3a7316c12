@@ -1,2 +1,0 @@
-
-a227349ee38e24503754334d78c4398f03a8d019	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/ylru","integrity":null,"time":1773971818802,"size":"262","metadata":{"time":1773971818802,"url":"http://registry.npmmirror.com/ylru","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:59 GMT","location":"https://registry.npmmirror.com/ylru"},"options":{"compress":true},"status":301}}

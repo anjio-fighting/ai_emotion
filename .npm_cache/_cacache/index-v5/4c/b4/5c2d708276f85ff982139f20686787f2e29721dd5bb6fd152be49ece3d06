@@ -1,2 +1,0 @@
-
-91e230e6c0e9e667dd6ebeaefd85754955efcd7a	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/koa-router","integrity":null,"time":1773971795771,"size":"262","metadata":{"time":1773971795771,"url":"http://registry.npmmirror.com/koa-router","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:36 GMT","location":"https://registry.npmmirror.com/koa-router"},"options":{"compress":true},"status":301}}

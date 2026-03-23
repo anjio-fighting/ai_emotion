@@ -1,2 +1,0 @@
-
-2447fd984e8c18c6c81c51ef0f5189a94544d71b	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/lodash","integrity":null,"time":1773370983535,"size":"262","metadata":{"time":1773370983535,"url":"http://registry.npmmirror.com/lodash","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 03:03:03 GMT","location":"https://registry.npmmirror.com/lodash"},"options":{"compress":true},"status":301}}

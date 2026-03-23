@@ -1,2 +1,0 @@
-
-b25e0849212ebf9502043b4aa881a373955f47b4	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/is-regex","integrity":null,"time":1773971821011,"size":"262","metadata":{"time":1773971821011,"url":"http://registry.npmmirror.com/is-regex","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:57:01 GMT","location":"https://registry.npmmirror.com/is-regex"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-96bcc681ad5001c63316f4a4984131b1a433d627	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@wangeditor%2fcore","integrity":null,"time":1773817628984,"size":"262","metadata":{"time":1773817628983,"url":"http://registry.npmmirror.com/@wangeditor%2fcore","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:10 GMT","location":"https://registry.npmmirror.com/@wangeditor%2fcore"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-742e8dc1b5373488deef2e05aa3651367b359743	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@parcel%2fwatcher-android-arm64","integrity":null,"time":1773384234788,"size":"262","metadata":{"time":1773384234788,"url":"http://registry.npmmirror.com/@parcel%2fwatcher-android-arm64","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 06:43:54 GMT","location":"https://registry.npmmirror.com/@parcel%2fwatcher-android-arm64"},"options":{"compress":true},"status":301}}

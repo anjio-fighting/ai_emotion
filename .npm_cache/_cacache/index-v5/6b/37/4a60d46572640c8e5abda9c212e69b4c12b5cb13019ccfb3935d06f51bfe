@@ -1,2 +1,0 @@
-
-0c317ce28c40da1635ab47496d5602373340843a	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/immutable","integrity":null,"time":1773384232704,"size":"262","metadata":{"time":1773384232703,"url":"http://registry.npmmirror.com/immutable","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 06:43:52 GMT","location":"https://registry.npmmirror.com/immutable"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-15ffbcdc41c683e7d612244a36c99de4e652e946	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/combined-stream","integrity":null,"time":1773647892812,"size":"262","metadata":{"time":1773647892812,"url":"http://registry.npmmirror.com/combined-stream","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Mar 2026 07:58:14 GMT","location":"https://registry.npmmirror.com/combined-stream"},"options":{"compress":true},"status":301}}

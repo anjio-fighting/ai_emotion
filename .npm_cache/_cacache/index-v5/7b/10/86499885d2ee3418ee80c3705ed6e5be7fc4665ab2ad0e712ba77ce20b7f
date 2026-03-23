@@ -1,2 +1,0 @@
-
-e5b94cb59bde87965287a9547e343f36ab5ab07a	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/copy-anything","integrity":null,"time":1773537045083,"size":"262","metadata":{"time":1773537045083,"url":"http://registry.npmmirror.com/copy-anything","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Sun, 15 Mar 2026 01:10:44 GMT","location":"https://registry.npmmirror.com/copy-anything"},"options":{"compress":true},"status":301}}

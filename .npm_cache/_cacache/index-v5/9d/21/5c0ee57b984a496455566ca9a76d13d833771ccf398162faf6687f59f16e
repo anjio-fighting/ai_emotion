@@ -1,2 +1,0 @@
-
-8f1754025200fdfcbffbfdae04b76b7834a2086a	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/lodash.isequal","integrity":null,"time":1773817628444,"size":"262","metadata":{"time":1773817628443,"url":"http://registry.npmmirror.com/lodash.isequal","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:09 GMT","location":"https://registry.npmmirror.com/lodash.isequal"},"options":{"compress":true},"status":301}}

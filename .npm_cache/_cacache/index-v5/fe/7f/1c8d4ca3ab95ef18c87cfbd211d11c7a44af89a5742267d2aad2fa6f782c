@@ -1,2 +1,0 @@
-
-3aadec09f016086ca7aeef6408bcf96e509c8fdf	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@vue%2fdevtools-shared","integrity":null,"time":1773537039662,"size":"262","metadata":{"time":1773537039662,"url":"http://registry.npmmirror.com/@vue%2fdevtools-shared","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Sun, 15 Mar 2026 01:10:39 GMT","location":"https://registry.npmmirror.com/@vue%2fdevtools-shared"},"options":{"compress":true},"status":301}}

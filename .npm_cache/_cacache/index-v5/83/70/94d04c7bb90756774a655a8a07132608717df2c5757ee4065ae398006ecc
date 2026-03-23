@@ -1,2 +1,0 @@
-
-8be4e637663fe1534f82916646ec44771f9b6782	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/deep-equal","integrity":null,"time":1773971818597,"size":"262","metadata":{"time":1773971818597,"url":"http://registry.npmmirror.com/deep-equal","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:59 GMT","location":"https://registry.npmmirror.com/deep-equal"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-716e9c94899dc7cbe263979a3bac7e19ba133a8a	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/readdirp","integrity":null,"time":1773384235139,"size":"262","metadata":{"time":1773384235138,"url":"http://registry.npmmirror.com/readdirp","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 06:43:54 GMT","location":"https://registry.npmmirror.com/readdirp"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-a1e369be5c098d02447c1641c8c2b02181fae007	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-musl","integrity":null,"time":1773384234787,"size":"262","metadata":{"time":1773384234787,"url":"http://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-musl","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 06:43:54 GMT","location":"https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-musl"},"options":{"compress":true},"status":301}}

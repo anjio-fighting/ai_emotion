@@ -1,2 +1,0 @@
-
-dee0ef4f8742df871483906b9838b0770ffa569e	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/esniff","integrity":null,"time":1773817644411,"size":"262","metadata":{"time":1773817644411,"url":"http://registry.npmmirror.com/esniff","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:25 GMT","location":"https://registry.npmmirror.com/esniff"},"options":{"compress":true},"status":301}}

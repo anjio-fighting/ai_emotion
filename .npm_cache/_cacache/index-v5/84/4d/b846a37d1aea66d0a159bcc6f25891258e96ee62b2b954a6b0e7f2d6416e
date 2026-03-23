@@ -1,2 +1,0 @@
-
-f5dc82493206851da23bfb971efcfb011b25643b	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/is-hotkey","integrity":null,"time":1773817628449,"size":"262","metadata":{"time":1773817628449,"url":"http://registry.npmmirror.com/is-hotkey","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:09 GMT","location":"https://registry.npmmirror.com/is-hotkey"},"options":{"compress":true},"status":301}}

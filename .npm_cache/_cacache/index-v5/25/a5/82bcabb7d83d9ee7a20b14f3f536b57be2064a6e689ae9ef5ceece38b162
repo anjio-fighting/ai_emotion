@@ -1,2 +1,0 @@
-
-f71629d441b0922c07762d1e6cba9e9211f17f39	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/es5-ext","integrity":null,"time":1773817639918,"size":"262","metadata":{"time":1773817639918,"url":"http://registry.npmmirror.com/es5-ext","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:21 GMT","location":"https://registry.npmmirror.com/es5-ext"},"options":{"compress":true},"status":301}}

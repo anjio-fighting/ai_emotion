@@ -1,2 +1,0 @@
-
-ac8b41c0819e4a9c584a4b64d3b3ae93839b6ad4	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@types%2fevent-emitter","integrity":null,"time":1773817633345,"size":"262","metadata":{"time":1773817633345,"url":"http://registry.npmmirror.com/@types%2fevent-emitter","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:14 GMT","location":"https://registry.npmmirror.com/@types%2fevent-emitter"},"options":{"compress":true},"status":301}}

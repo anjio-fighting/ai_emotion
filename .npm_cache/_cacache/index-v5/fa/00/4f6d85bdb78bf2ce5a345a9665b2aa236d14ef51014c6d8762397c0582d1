@@ -1,2 +1,0 @@
-
-680e5bca3b48304326e4415f75854495077be69e	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/call-bound","integrity":null,"time":1773971818595,"size":"262","metadata":{"time":1773971818595,"url":"http://registry.npmmirror.com/call-bound","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:59 GMT","location":"https://registry.npmmirror.com/call-bound"},"options":{"compress":true},"status":301}}

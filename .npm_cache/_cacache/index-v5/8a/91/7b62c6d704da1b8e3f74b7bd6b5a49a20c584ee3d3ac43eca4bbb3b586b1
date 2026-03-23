@@ -1,2 +1,0 @@
-
-6c5e018d2791dfca8779e4e1c5a2e9c3c9a4415f	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@parcel%2fwatcher-darwin-x64","integrity":null,"time":1773384235318,"size":"262","metadata":{"time":1773384235317,"url":"http://registry.npmmirror.com/@parcel%2fwatcher-darwin-x64","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 06:43:54 GMT","location":"https://registry.npmmirror.com/@parcel%2fwatcher-darwin-x64"},"options":{"compress":true},"status":301}}

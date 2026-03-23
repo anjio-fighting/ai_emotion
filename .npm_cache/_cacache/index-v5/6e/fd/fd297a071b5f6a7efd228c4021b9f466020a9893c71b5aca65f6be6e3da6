@@ -1,2 +1,0 @@
-
-395a1b457454245dbf7a5d2d958caecf5cbd0ff3	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@floating-ui%2fcore","integrity":null,"time":1773370983933,"size":"262","metadata":{"time":1773370983933,"url":"http://registry.npmmirror.com/@floating-ui%2fcore","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 13 Mar 2026 03:03:03 GMT","location":"https://registry.npmmirror.com/@floating-ui%2fcore"},"options":{"compress":true},"status":301}}

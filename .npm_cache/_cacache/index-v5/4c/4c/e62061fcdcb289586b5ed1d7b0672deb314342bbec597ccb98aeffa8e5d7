@@ -1,2 +1,0 @@
-
-78a9aa8033f8256601c00dacaf8103e18148e08a	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/es6-symbol","integrity":null,"time":1773817644406,"size":"262","metadata":{"time":1773817644405,"url":"http://registry.npmmirror.com/es6-symbol","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 18 Mar 2026 07:07:25 GMT","location":"https://registry.npmmirror.com/es6-symbol"},"options":{"compress":true},"status":301}}

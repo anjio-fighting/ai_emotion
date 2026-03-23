@@ -1,2 +1,0 @@
-
-de449b3045622a5d3286ed88c7272d8a280bf207	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/perfect-debounce","integrity":null,"time":1773537039389,"size":"262","metadata":{"time":1773537039389,"url":"http://registry.npmmirror.com/perfect-debounce","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Sun, 15 Mar 2026 01:10:38 GMT","location":"https://registry.npmmirror.com/perfect-debounce"},"options":{"compress":true},"status":301}}

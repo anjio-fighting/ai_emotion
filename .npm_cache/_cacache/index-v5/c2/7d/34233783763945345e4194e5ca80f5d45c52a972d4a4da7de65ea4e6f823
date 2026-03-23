@@ -1,2 +1,0 @@
-
-a456b1a514a1e3f1f45f26d384bf6ba51b1336fc	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/hookable","integrity":null,"time":1773537039575,"size":"262","metadata":{"time":1773537039575,"url":"http://registry.npmmirror.com/hookable","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Sun, 15 Mar 2026 01:10:38 GMT","location":"https://registry.npmmirror.com/hookable"},"options":{"compress":true},"status":301}}

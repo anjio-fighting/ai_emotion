@@ -1,2 +1,0 @@
-
-af99b73664162c6015bceae48f8030576eaf99c2	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/urijs","integrity":null,"time":1773971815174,"size":"262","metadata":{"time":1773971815174,"url":"http://registry.npmmirror.com/urijs","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 20 Mar 2026 01:56:55 GMT","location":"https://registry.npmmirror.com/urijs"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-77ab0f18a97a71d3aba083d20eb41d1dac08e9ad	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/pinia","integrity":null,"time":1773478863754,"size":"262","metadata":{"time":1773478863753,"url":"http://registry.npmmirror.com/pinia","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Sat, 14 Mar 2026 09:01:03 GMT","location":"https://registry.npmmirror.com/pinia"},"options":{"compress":true},"status":301}}

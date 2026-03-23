@@ -321,4 +321,14 @@ const handleSubmit = async () => {
   height: 120px;
   display: block;
 }
+.cover-remove {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  .el-button {
+    width: 120px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+}
 </style>

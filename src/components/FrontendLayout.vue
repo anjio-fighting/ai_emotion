@@ -20,7 +20,7 @@
         >
         <router-link to="/knowledge" class="nav-link">知识库</router-link>
         <router-link
-          to="/logout-btn"
+          to="#"
           class="nav-link"
           v-if="isLoggendIn"
           @click="handleLogout"

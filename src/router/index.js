@@ -83,6 +83,11 @@ const frontendRoutes = [
       }, {
         path: 'knowledge',
         component: () => import('@/views/frontendKnowledge.vue'),
+      },
+      {
+        path: 'knowledge/article/:id',
+        component: () => import('@/views/articleDetail.vue'),
+        props: true,//将路由参数作为组件传递
       }
     ]
   }

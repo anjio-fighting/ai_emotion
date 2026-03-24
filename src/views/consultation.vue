@@ -110,7 +110,9 @@
               <div class="session-title">
                 <span>{{ session.sessionTitle }}</span>
                 <div class="session-meta">
-                  <span class="sesssion-time">{{ session.startedAt }}</span>
+                  <span class="sesssion-time">{{
+                    formatTime(session.startedAt)
+                  }}</span>
                 </div>
                 <div class="session-preview">
                   {{ session.lastMessageContent }}
@@ -222,7 +224,7 @@
               {{
                 msg.senderType === 2 && isAiTyping
                   ? "正在输入中..."
-                  : msg.createdAt
+                  : formatTime(msg.createdAt)
               }}
             </div>
           </div>
@@ -550,6 +552,40 @@ const handleDeleteSession = (sessionId) => {
 //简单的换行逻辑
 const formatMessageContent = (content) => {
   return content.replace(/\n/g, "<br>");
+};
+
+//时间格式化函数
+const formatTime = (timeString) => {
+  const date = new Date(timeString);
+  const now = new Date();
+  const diff = now - date;
+
+  //计算时间差（分钟）
+  const minutes = Math.floor(diff / 60000);
+
+  //如果是今天的时间
+  if (date.toDateString() === now.toDateString()) {
+    if (minutes < 1) {
+      return "刚刚";
+    } else if (minutes < 60) {
+      return `${minutes}分钟前`;
+    } else {
+      //显示今天的时间
+      return date.toLocaleTimeString("zh-CN", {
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+    }
+  } else {
+    //显示日期和时间
+    return date.toLocaleString("zh-CN", {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  }
 };
 
 onMounted(() => {

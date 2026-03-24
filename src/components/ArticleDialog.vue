@@ -242,8 +242,10 @@ const beforeUpload = (file) => {
 const imgurl = ref("");
 const businessId = ref("");
 const handleUploadRequest = async ({ file }) => {
-  //UUID生成
-  businessId.value = crypto.randomUUID(); //生成一个随机的UUID作为业务ID,是一个字符串
+  //UUID生成 - 只有在非编辑模式或businessId为空时才生成新的
+  if (!isEdit.value || !businessId.value) {
+    businessId.value = crypto.randomUUID(); //生成一个随机的UUID作为业务ID,是一个字符串
+  }
   const fileRes = await uploadFile(file, { businessId });
   console.log(fileRes);
 
@@ -255,6 +257,7 @@ const handleUploadRequest = async ({ file }) => {
 const handleRemove = () => {
   imgurl.value = "";
   formData.coverImage = "";
+  console.log(formData.coverImage, "handleRemove_coverImage1");
 };
 
 const handleContentChange = (data) => {
@@ -282,26 +285,27 @@ const handleSubmit = async () => {
   formRef.value.validate((valid, fields) => {
     if (valid) {
       loading.value = true;
-    }
-    const submitData = {
-      ...formData,
-      tags: formData.tagArray.join(","),
-    };
-    delete submitData.tagArray; //删除tagArray属性,因为后端接收的是tags字符串
+      const submitData = {
+        ...formData,
+        tags: formData.tagArray.join(","),
+      };
+      console.log(submitData, "submitData");
+      delete submitData.tagArray; //删除tagArray属性,因为后端接收的是tags字符串
 
-    if (!isEdit.value) {
-      submitData.id = businessId.value;
-      createArticle(submitData).then((res) => {
-        loading.value = false;
-        ElMessage.success("创建文章成功");
-        emit("success");
-      });
-    } else {
-      updateArticle(businessId.value, submitData).then((res) => {
-        loading.value = false;
-        ElMessage.success("更新文章成功");
-        emit("success");
-      });
+      if (!isEdit.value) {
+        submitData.id = businessId.value;
+        createArticle(submitData).then((res) => {
+          loading.value = false;
+          ElMessage.success("创建文章成功");
+          emit("success");
+        });
+      } else {
+        updateArticle(businessId.value, submitData).then((res) => {
+          loading.value = false;
+          ElMessage.success("更新文章成功");
+          emit("success");
+        });
+      }
     }
   });
 };

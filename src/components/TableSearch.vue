@@ -46,14 +46,14 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(["search"]);
-
 const formItemAttrs = computed(() => {
   return props.formItem.map((item) => ({
     ...item,
     col: { xs: 24, sm: 12, md: 8, lg: 6, xl: 6 },
   }));
 });
+
+const emit = defineEmits(["search"]);
 
 // 映射函数：将配置中的字符串（如 'input'）转换为 Element Plus 组件的真实标签名（如 'el-input'）
 const isComp = (comp) => {

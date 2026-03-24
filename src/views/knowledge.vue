@@ -87,7 +87,7 @@ import {
 import ArticleDialog from "@/components/ArticleDialog.vue";
 import { ElMessageBox, ElMessage } from "element-plus";
 
-const formItem = [
+const formItem = ref([
   {
     comp: "input",
     prop: "title",
@@ -99,6 +99,7 @@ const formItem = [
     prop: "category",
     label: "分类",
     placeholder: "请选择分类",
+    options: [],
   },
   {
     comp: "select",
@@ -111,7 +112,7 @@ const formItem = [
       { label: "已下线", value: "2" },
     ],
   },
-];
+]);
 
 // 分页参数
 const pagination = reactive({
@@ -162,48 +163,61 @@ const handleEdit = (row) => {
   } else {
     getArticleDetail(row.id).then((res) => {
       currentArticle.value = res;
+      console.log(currentArticle.value, "currentArticle.value");
       dialogVisible.value = true;
     });
   }
 };
 
 const handlePublish = (row) => {
-  ElMessageBox.confirm("确认发布文章${row.title}吗？", "提示", {
+  ElMessageBox.confirm(`确认发布文章  ${row.title}  吗？`, "提示", {
     confirmButtonText: "确定",
     cancelButtonText: "取消",
     type: "info",
-  }).then(() => {
-    changeArticleStatus(row.id, { status: 1 }).then(() => {
-      ElMessage.success("发布成功");
-      handleSearch();
+  })
+    .then(() => {
+      changeArticleStatus(row.id, { status: 1 }).then(() => {
+        ElMessage.success("发布成功");
+        handleSearch();
+      });
+    })
+    .catch(() => {
+      // 处理用户取消的情况
     });
-  });
 };
 
 const handleUnpublish = (row) => {
-  ElMessageBox.confirm("确认下线文章${row.title}吗？", "提示", {
+  ElMessageBox.confirm(`确认下线文章  ${row.title}  吗？`, "提示", {
     confirmButtonText: "确定",
     cancelButtonText: "取消",
     type: "warning",
-  }).then(() => {
-    changeArticleStatus(row.id, { status: 2 }).then(() => {
-      ElMessage.success("下线成功");
-      handleSearch();
+  })
+    .then(() => {
+      changeArticleStatus(row.id, { status: 2 }).then(() => {
+        ElMessage.success("下线成功");
+        handleSearch();
+      });
+    })
+    .catch(() => {
+      // 处理用户取消的情况
     });
-  });
 };
 
 const handleDelete = (row) => {
-  ElMessageBox.confirm("确认删除文章${row.title}吗？", "提示", {
+  ElMessageBox.confirm(`确认删除文章  ${row.title}  吗？`, "提示", {
     confirmButtonText: "确定",
     cancelButtonText: "取消",
     type: "danger",
-  }).then(() => {
-    deleteArticle(row.id).then(() => {
-      ElMessage.success("删除成功");
-      handleSearch();
+  })
+    .then(() => {
+      deleteArticle(row.id).then(() => {
+        ElMessage.success("删除成功");
+        handleSearch();
+      });
+    })
+    .catch(() => {
+      // 处理用户取消的情况
     });
-  });
 };
 
 //onMounted 组件挂载完成后调用
@@ -219,8 +233,7 @@ onMounted(async () => {
     };
   });
   // 设置分类选项
-  formItem[1].options = categories.value;
-  console.log(formItem[1].options);
+  formItem.value[1].options = categories.value;
   handleSearch();
 });
 </script>

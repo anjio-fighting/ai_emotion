@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="title">
-      <div class="backhome">
+      <div class="backhome" @click="goBack">
         <!-- <Back />是返回首页的图标组件 -->
         <el-icon><Back /></el-icon>
         <span>返回首页</span>
@@ -109,6 +109,10 @@ const submitForm = async (formRef) => {
     }
   });
 };
+
+const goBack = () => {
+  router.push("/");
+};
 </script>
 
 <style lang="scss" scoped>
@@ -117,6 +121,7 @@ const submitForm = async (formRef) => {
   .title {
     .backhome {
       margin-bottom: 60px;
+      cursor: pointer;
     }
     .title-text {
       text-align: center;
